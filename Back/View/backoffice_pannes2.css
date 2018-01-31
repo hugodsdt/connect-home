@@ -1,0 +1,52 @@
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    border-collapse: 0px;
+} /* Travail sur le design des cellules du tableau*/
+
+td {
+	padding: 15px;
+	vertical-align: middle;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000
+}
+p{
+	font-family: "Roboto Slab",serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 30px 0px 50px !important;
+	margin: 0 auto;
+}
+body {
+  height:95vh;
+  background-image:url(bg.jpg);
+  background-size: cover;
+}
+.follow_icon {
+	list-style: none;
+	float: right;
+
+}
+.follow_icon ul{list-style:none;margin:0;padding:0;}
+.follow_icon li {
+	float: right;
+	margin-right: : 13px;
+	padding:0%;
+}
+.follow_icon li a img {
+	vertical-align: middle;
+}
+.follow_icon li a img:hover {
+	opacity: 0.7;
+}

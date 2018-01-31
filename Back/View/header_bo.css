@@ -1,0 +1,50 @@
+header{
+	background-color: #3F5378; /* le fond est bleu foncé*/
+	display: flex;
+	height: 20%;
+	border-radius: 10px;
+	color: FF9800;
+}
+
+h3{
+	color: white; /* Couleur du texte titre*/
+	margin-left: 30px;
+	margin-right: 200px;
+}
+
+.headerul{
+    position:relative; /* positionnement de la liste de cases*/
+    top: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+.headerli{
+    list-style:none;
+    background-color:#FF9800; /* couleur jaune des boutons*/
+    padding:15px; margin-right:20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: black; /*Le texte des boutons doit s'afficher en noir pour etre lisible*/
+}
+.headerimg{
+    float:left; /* Placement et taille du logo */
+    width:100px;
+		height: 100px;
+}
+
+.headerb{
+	list-style:none;
+	background-color:#FF9800; /* couleur jaune des boutons*/
+	padding:15px; margin-right:20px;
+	border-radius: 10px;
+	text-decoration: none;
+
+}

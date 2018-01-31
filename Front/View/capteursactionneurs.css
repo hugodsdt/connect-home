@@ -1,0 +1,85 @@
+body{
+    font-family: Arial;
+}
+header{
+background-color: #2E8FF5;
+    height:100px;
+    border-radius: 10px;
+}
+.headerul{
+    position:relative;
+    top:25px;
+    display: flex;
+}
+.headerli{
+    list-style:none;
+    background-color:#C0F2FF;
+    padding:15px; margin-right:20px;
+    border-radius: 10px;
+}
+.headerimg{
+    float:left;
+    width:100px;
+}
+img{
+    float:left;
+    width:100px;
+}
+
+.flotante{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+hr{
+    width:100%;
+    position:relative;
+    right:10px;
+    border-color: black;
+}
+article{
+    background-color: #3F5378;
+    width:98%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    overflow: auto;
+}
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ajouter{
+    position:relative;
+    left:500px;
+    width:25px;
+}
+footer{
+    position:relative;
+    bottom:5px;
+    background-color: #2E8FF5;
+    border-radius:10px;
+    width:99%;
+    color:white;
+}
+button{
+    position:relative;
+    float: right;
+
+}
+/*attention au hover qui par défaut
+est bleu et souligné*/
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+.black{
+  color: black;
+
+}

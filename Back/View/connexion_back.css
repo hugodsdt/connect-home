@@ -1,0 +1,79 @@
+.titre{
+	color: #35B9E1;
+	font-size: 50px;
+	margin-top: 20px;
+	background-color: #3F5378;
+	color: #FF9800;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.bouton{
+	background-color: #0784D7;
+	border-radius: 5px;
+	border: solid green 1px;
+	color: white;
+	width: 150px;
+	height: 30px;
+}
+
+input{
+	width: 250px;
+	height: 20px;
+	padding-left: 10px;
+	border-radius: 4px;
+	border: solid black 0.5px;
+}
+
+.erreur{
+	text-align: center;
+	background: #F39F50;
+	padding: 30px;
+	color: red;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000
+}
+p{
+	font-family: "Roboto Slab",serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 30px 0px 50px !important;
+	margin: 0 auto;
+}
+body{
+	font-family: arial;
+	font-size: 20px;
+  background-image:url(bg.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  min-height:96.4vh;
+}
+.follow_icon {
+	list-style: none;
+	float: right;
+
+}
+.follow_icon ul{list-style:none;margin:0;padding:0;}
+.follow_icon li {
+	float: right;
+	margin-right: : 13px;
+	padding:0%;
+}
+.follow_icon li a img {
+	vertical-align: middle;
+}
+.follow_icon li a img:hover {
+	opacity: 0.7;
+}
+.headerimg{
+    float:left; /* Placement et taille du logo */
+    width:100px;
+		height: 100px;
+}
